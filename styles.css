@@ -10,13 +10,21 @@
 }
 
 .cake-link, .chicken-link, .salad-link {
-    background-color: aqua;
-    color: black;
+    background-color: lightgray;
+    list-style: none;
     font-size: 25px;
     height: auto;
-    width: 500px;
-    margin: 15px;
-    text-align: center;
+    width: 650px;
+    margin: 10px auto;
+    padding: 5px;
     border: 2px solid black;
+    display: inline-box;
+    vertical-align: middle;
 }
 
+img {
+    height: auto;
+    width: 200px;
+    display: inline-block;
+    vertical-align: middle;
+}
